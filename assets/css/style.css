@@ -42,7 +42,7 @@ header .header-top img {
 }
 
 header .navbar {
-  background-color: #a1acb9;
+  background: linear-gradient(to bottom, #bbc4cd, #94a0ae);
 }
 
 header .navbar .navbar-nav {
@@ -97,12 +97,13 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 }
 
 .main-content .sidebar {
-  background-color: #a7b2be;
   border-radius: 6px 6px 0 0;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 .main-content .sidebar .side-bar-header {
+  background: linear-gradient(to bottom, #bbc4cd, #94a0ae);
   padding: 10px 0px;
 }
 
@@ -118,7 +119,6 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 
 .main-content .sidebar .sidebar-bar .bar-item {
   background-color: #caced4;
-  transition: 0.3s all;
 }
 
 .main-content .sidebar .sidebar-bar .bar-item .bar-link {
@@ -141,7 +141,7 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 }
 
 .main-content .content .content-header {
-  background-color: #a7b2be;
+  background: linear-gradient(to bottom, #bbc4cd, #94a0ae);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -182,7 +182,7 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
 
 /* ==================== footer-content [START] ==================== */
 .footer-content {
-  background-color: #adb7c2;
+  background: linear-gradient(to bottom, #bbc4cd, #94a0ae);
   text-align: center;
   text-transform: capitalize;
   padding: 40px 0px;
