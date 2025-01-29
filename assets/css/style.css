@@ -59,7 +59,7 @@ header .navbar .navbar-nav .nav-item .nav-link {
   font-size: 18px;
   color: #fff;
   border-right: 1px solid #fff;
-  transform: 0.3s all;
+  transition: 0.3s all;
 }
 
 header .navbar .navbar-nav .nav-item .nav-link.active {
@@ -77,6 +77,7 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  margin-bottom: -10px;
 }
 /* ==================== Banner [END] ==================== */
 
@@ -95,11 +96,98 @@ header .navbar .navbar-nav .nav-item .nav-link:hover {
   padding-inline: 10px;
 }
 
-.main-content .side-bar {
+.main-content .sidebar {
   background-color: #a7b2be;
+  border-radius: 6px 6px 0 0;
+  margin-bottom: 20px;
 }
 
-.main-content .content {
-  background-color: #a7b2be;
+.main-content .sidebar .side-bar-header {
+  padding: 10px 0px;
 }
+
+.main-content .sidebar .side-bar-header h1 {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.main-content .sidebar .sidebar-bar {
+  list-style-type: none;
+}
+
+.main-content .sidebar .sidebar-bar .bar-item {
+  background-color: #caced4;
+  transition: 0.3s all;
+}
+
+.main-content .sidebar .sidebar-bar .bar-item .bar-link {
+  text-decoration: none;
+  display: block;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.3s all;
+}
+
+.main-content .sidebar .sidebar-bar .bar-item:hover {
+  background: linear-gradient(90deg, #76e8d6, #9eade6);
+}
+
+.main-content .sidebar .sidebar-bar .bar-item:hover .bar-link {
+  transform: translate(9px, 0px);
+}
+
+.main-content .content .content-header {
+  background-color: #a7b2be;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.main-content .content .content-header h1 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.main-content .content .content-header a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.main-content .content .row {
+  margin-inline: 0px;
+  margin-bottom: 10px;
+}
+
+.main-content .content .col-3 {
+  padding-inline: 14px;
+}
+
+.main-content .content .card {
+  height: 200px;
+  border-radius: 6px;
+  border: 1px solid #a7b2be;
+}
+
 /* ==================== Main-content [END] ==================== */
+
+/* ==================== footer-content [START] ==================== */
+.footer-content {
+  background-color: #adb7c2;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 40px 0px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* ==================== footer-content [END] ==================== */
